@@ -5,13 +5,18 @@
   <groupId>com.shuknuk.concurrency</groupId>
   <artifactId>Concurrency-Visualizer</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <packaging>jar</packaging>
+  <packaging>pom</packaging>
 
   <name>Concurrency-Visualizer</name>
   <url>http://maven.apache.org</url>
+  <modules>
+    <module>logger</module>
+  </modules>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>21</maven.compiler.source>
+    <maven.compiler.target>21</maven.compiler.target>
   </properties>
 
   <dependencies>
